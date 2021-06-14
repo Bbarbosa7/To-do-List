@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="PT-en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My To-do List</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2 style="margin:5px">Minha lista</h2>
+        <input type="text" id="myInput" placeholder="Nova tarefa">
+        <span onclick="newElement()" class="addBtn">Adicionar</span>
+        <button type="button" id="clear-list" onclick="removeAll()">Limpar lista</button>
+    </div>
+
+    <ul id="myUL">
+        <li class="checked">Exemplo 1</li>
+        <li>Exemplo 2</li>
+        <li>Exemplo 3</li>
+    </ul>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
